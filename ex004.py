@@ -1,0 +1,10 @@
+#estudos04
+something=input("digite algo:")
+print(f"Seu type é {type(something)}")
+print(f"Space {something.isspace()}")
+print(f"Numeric {something.isnumeric()}")
+print(f"word {something.isalpha()}")
+print(f"numeriword {something.isalnum()}")
+print(f"Upper {something.isupper()}")
+print(f"Lower {something.islower()}")
+print(f"Title {something.istitle()}")
